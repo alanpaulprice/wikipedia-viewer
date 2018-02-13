@@ -1,0 +1,138 @@
+@color-1: #437F97;
+@color-2: #C6D8E0;
+@color-3: #FFF;
+@color-4: #000;
+
+.border-r {
+  border-radius: 5px;
+}
+
+* {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  background-color: @color-1;
+}
+
+// ===== JUMBOTRON =====
+
+.jumbotron {
+  background-color: @color-1;
+  color: @color-3;
+  h1, h1 a {
+    color: @color-3;
+    &:hover {
+      text-decoration: none;
+      color: @color-2;
+    }
+    &:focus {
+      text-decoration: none;
+      border: none;
+      outline: 0;
+    }
+  }
+}
+
+// ===== SEARCH INPUT =====
+
+#searchInput {
+  font-size: 20px;
+  color: @color-4;
+  background-color: @color-3;
+  border-color: @color-2;
+  .border-r;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  &:hover {
+    background-color: @color-3;
+    border-color: @color-2;
+  }
+  &:focus {
+    background-color: @color-3;
+    border-color: @color-3;
+  }
+}
+
+// ===== AUTOCOMPLETE =====
+
+.ui-helper-hidden-accessible {
+  display: none;
+}
+
+ul.ui-autocomplete.ui-menu{
+  color: @color-4;
+  background-color: @color-3;
+  width: 25%;
+  .border-r;
+  list-style: none;
+  font-size: 20px;
+  border-top: 1px solid @color-4;
+  padding: 12px;
+}
+
+// ===== SEARCH BUTTONS =====
+
+#btnRow {
+  padding-top: 10px;
+}
+
+#randomBtn button, #searchBtn {
+  margin-top: 5px;
+}
+
+.btn-default {
+  color: @color-4;
+  font-size: 20px;
+  border-color: @color-2;
+  .border-r;
+  &:hover {
+    text-decoration: none;
+    color: @color-1;
+    background-color: @color-3;
+    border-color: @color-3;
+  }
+  &:active {
+    // Changed the color of the button mid-click:
+    background-color: @color-3 !important;
+  }
+  &:visted {
+    color: @color-4;
+    text-decoration: none;
+  }
+}
+
+// ===== HORIZONTAL RULE =====
+
+hr {
+  border: none;
+  height: 5px;
+  background-color: @color-2;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+// ===== SEARCH RESULTS =====
+
+#searchResultsRow {
+  // Provides space on mobile, unnoticable on larger screens.
+  margin-left: .0001px;
+  margin-right: .0001px;
+}
+
+.singleResultCol {
+  background-color: @color-3;
+  margin-bottom: 15px;
+  padding: 15px;
+  .border-r;
+  h3 {
+    margin-top: 0;
+  }
+}
+
+#searchResultsCol {
+  a {
+  .btn-default;
+  font-size: 15px;
+  }
+}

@@ -1,0 +1,124 @@
+.border-r {
+  border-radius: 5px;
+}
+* {
+  font-family: 'Ubuntu', sans-serif;
+}
+body {
+  background-color: #437F97;
+}
+.jumbotron {
+  background-color: #437F97;
+  color: #FFF;
+}
+.jumbotron h1,
+.jumbotron h1 a {
+  color: #FFF;
+}
+.jumbotron h1:hover,
+.jumbotron h1 a:hover {
+  text-decoration: none;
+  color: #C6D8E0;
+}
+.jumbotron h1:focus,
+.jumbotron h1 a:focus {
+  text-decoration: none;
+  border: none;
+  outline: 0;
+}
+#searchInput {
+  font-size: 20px;
+  color: #000;
+  background-color: #FFF;
+  border-color: #C6D8E0;
+  border-radius: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#searchInput:hover {
+  background-color: #FFF;
+  border-color: #C6D8E0;
+}
+#searchInput:focus {
+  background-color: #FFF;
+  border-color: #FFF;
+}
+.ui-helper-hidden-accessible {
+  display: none;
+}
+ul.ui-autocomplete.ui-menu {
+  color: #000;
+  background-color: #FFF;
+  width: 25%;
+  border-radius: 5px;
+  list-style: none;
+  font-size: 20px;
+  border-top: 1px solid #000;
+  padding: 12px;
+}
+#btnRow {
+  padding-top: 10px;
+}
+#randomBtn button,
+#searchBtn {
+  margin-top: 5px;
+}
+.btn-default {
+  color: #000;
+  font-size: 20px;
+  border-color: #C6D8E0;
+  border-radius: 5px;
+}
+.btn-default:hover {
+  text-decoration: none;
+  color: #437F97;
+  background-color: #FFF;
+  border-color: #FFF;
+}
+.btn-default:active {
+  background-color: #FFF !important;
+}
+.btn-default:visted {
+  color: #000;
+  text-decoration: none;
+}
+hr {
+  border: none;
+  height: 5px;
+  background-color: #C6D8E0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#searchResultsRow {
+  margin-left: .0001px;
+  margin-right: .0001px;
+}
+.singleResultCol {
+  background-color: #FFF;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 5px;
+}
+.singleResultCol h3 {
+  margin-top: 0;
+}
+#searchResultsCol a {
+  color: #000;
+  font-size: 20px;
+  border-color: #C6D8E0;
+  border-radius: 5px;
+  font-size: 15px;
+}
+#searchResultsCol a:hover {
+  text-decoration: none;
+  color: #437F97;
+  background-color: #FFF;
+  border-color: #FFF;
+}
+#searchResultsCol a:active {
+  background-color: #FFF !important;
+}
+#searchResultsCol a:visted {
+  color: #000;
+  text-decoration: none;
+}
